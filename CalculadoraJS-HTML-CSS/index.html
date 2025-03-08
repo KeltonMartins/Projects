@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Calculadora</title>
+</head>
+<body>
+  <h1>Kelton Martins</h1>
+  <div class="calculator">
+    <!-- Área para exibir a operação em andamento -->
+    <input type="text" id="operacao" disabled />
+    <input type="text" disabled id="display" />
+    <div class="boxButtons">
+      <button class="btn-cinclaro" onclick="mostrarNaTela('C')">C</button>
+      <button class="btn-cinclaro" onclick="mostrarNaTela('<')">&lt;</button>
+      <button class="btn-cinclaro" onclick="mostrarNaTela('%')">%</button>
+      <button class="btn-laranja" onclick="mostrarNaTela('÷')">÷</button>
+      <button onclick="mostrarNaTela('7')">7</button>
+      <button onclick="mostrarNaTela('8')">8</button>
+      <button onclick="mostrarNaTela('9')">9</button>
+      <button class="btn-laranja" onclick="mostrarNaTela('x')">x</button>
+      <button onclick="mostrarNaTela('4')">4</button>
+      <button onclick="mostrarNaTela('5')">5</button>
+      <button onclick="mostrarNaTela('6')">6</button>
+      <button class="btn-laranja" onclick="mostrarNaTela('-')">-</button>
+      <button onclick="mostrarNaTela('1')">1</button>
+      <button onclick="mostrarNaTela('2')">2</button>
+      <button onclick="mostrarNaTela('3')">3</button>
+      <button class="btn-laranja" onclick="mostrarNaTela('+')">+</button>
+      <button onclick="mostrarNaTela('^')">^</button>
+      <button onclick="mostrarNaTela('0')">0</button>
+      <button onclick="mostrarNaTela('.')">.</button>
+      <button class="btn-laranja" onclick="mostrarNaTela('=')">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
